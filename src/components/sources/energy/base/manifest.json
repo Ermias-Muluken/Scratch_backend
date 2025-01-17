@@ -1,0 +1,6 @@
+{
+  "name": "energy_base",
+  "version": "1.0.0",
+  "description": "Base energy source component",
+  "dependencies": []
+}

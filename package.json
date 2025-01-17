@@ -1,0 +1,21 @@
+{
+  "name": "home-automation-core",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "yaml": "^2.3.3",
+    "node-schedule": "^2.1.1",
+    "events": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "vitest": "^0.34.6"
+  }
+}

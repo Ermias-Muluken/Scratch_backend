@@ -1,0 +1,13 @@
+{
+  "name": "solar",
+  "version": "1.0.0",
+  "description": "Solar energy source component",
+  "dependencies": ["energy_base"],
+  "config_schema": {
+    "capacity": {
+      "type": "number",
+      "description": "Maximum power output in watts",
+      "required": true
+    }
+  }
+}

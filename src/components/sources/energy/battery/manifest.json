@@ -1,0 +1,23 @@
+{
+  "name": "battery",
+  "version": "1.0.0",
+  "description": "Battery energy source component",
+  "dependencies": ["energy_base"],
+  "config_schema": {
+    "capacity": {
+      "type": "number",
+      "description": "Battery capacity in kWh",
+      "required": true
+    },
+    "max_charge_rate": {
+      "type": "number",
+      "description": "Maximum charging power in watts",
+      "required": true
+    },
+    "max_discharge_rate": {
+      "type": "number",
+      "description": "Maximum discharging power in watts",
+      "required": true
+    }
+  }
+}

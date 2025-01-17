@@ -1,0 +1,23 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "description": "Generator energy source component",
+  "dependencies": ["energy_base"],
+  "config_schema": {
+    "rated_power": {
+      "type": "number",
+      "description": "Rated power output in watts",
+      "required": true
+    },
+    "fuel_capacity": {
+      "type": "number",
+      "description": "Fuel capacity in liters",
+      "required": true
+    },
+    "maintenance_interval": {
+      "type": "number",
+      "description": "Maintenance interval in hours",
+      "required": true
+    }
+  }
+}
